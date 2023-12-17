@@ -14,6 +14,7 @@ export const Inner = styled.div`
 `;
 
 export const FullPageLayout = styled.div`
+  position: relative;
   width: 100vw;
 
   display: flex;

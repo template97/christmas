@@ -1,13 +1,13 @@
-
-import { HomePage } from './pages/HomePage'
+import { BGImage } from './components/BG';
+import { HomePage } from './pages/HomePage';
 
 function App() {
-
   return (
     <>
-     <HomePage/>
+      <HomePage />
+      <BGImage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
