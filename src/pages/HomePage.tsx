@@ -43,7 +43,7 @@ export const HomePage: FC = () => {
       </InnerCard>
       <Gradient2 style={{ marginTop: 'auto' }} />
       <Description3>
-        <Left3>Q. 몇시까지 노나요?</Left3>
+        <Left3>Q. 몇시까지 노나요? </Left3>
         <Right3>
           정식(?) 일정은 11시 즈음으로 예상합니다. 이후에는 무제한으로 술먹고 이야기 하며 놀듯! 밤새 놀고 자고 다음날
           가셔도 됩니다. 토퍼&이불 제공해드립니다~
