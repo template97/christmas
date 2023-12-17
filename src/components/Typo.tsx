@@ -46,6 +46,30 @@ export const Right2 = styled.span`
 
   color: #363231;
 `;
+export const Description3 = styled.div`
+  line-height: 1.2;
+  font-weight: bold;
+  color: #4f4f4f;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  word-break: keep-all;
+
+  margin-top: 60px;
+`;
+
+export const Left3 = styled.span`
+  font-size: 1.6rem;
+  margin-top: 18px;
+`;
+
+export const Right3 = styled.span`
+  font-size: 1rem;
+  margin-top: 6px;
+  margin-left: 24px;
+`;
 
 export const Row = styled.div`
   width: 100%;
