@@ -17,20 +17,22 @@ export const CardHeader = styled.div`
 `;
 
 export const Gradient1 = styled.div`
+  flex-shrink: 0;
   width: 100%;
   height: 36px;
 
   background-image: repeating-linear-gradient(135deg, transparent, transparent 20px, #ffffff10 80px, #ffffff10 100px),
-    linear-gradient(90deg, red, green, red);
+    linear-gradient(90deg, #cf1f22, #00690c, #cf1f22);
   animation: ${gradient} 30s linear infinite;
   background-size: 150% 100%;
 `;
 export const Gradient2 = styled.div`
+  flex-shrink: 0;
   width: 100%;
   height: 36px;
 
   background-image: repeating-linear-gradient(135deg, transparent, transparent 20px, #ffffff10 80px, #ffffff10 100px),
-    linear-gradient(90deg, green, red, green);
+    linear-gradient(90deg, #00690c, #cf1f22, #00690c);
   animation: ${gradient} 30s linear infinite;
   background-size: 150% 100%;
 `;

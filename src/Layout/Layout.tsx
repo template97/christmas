@@ -7,7 +7,6 @@ export const InnerCard = styled.div`
 
 export const FullPageLayout = styled.div`
   width: 100vw;
-  height: 100vh;
 
   display: flex;
   flex-direction: column;
