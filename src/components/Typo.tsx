@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 
-export const Title = styled.span`
+export const Title = styled.div`
   font-size: 3.8rem;
   line-height: 3rem;
   font-weight: bold;
   color: #00690c;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+`;
+
+export const Red = styled.div`
+  color: #cf1f22;
 `;
 export const Description1 = styled.div`
   font-size: 1.5rem;
